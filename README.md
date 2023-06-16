@@ -41,13 +41,13 @@ Host requirements (laptop, or VM), where you will be executing this program:
 
 ## Future work: Replication on AWS <br />
 Technologies <br />
-    - ECS  - host our docker containershand <br />
-      - Cluster - Running on Fargate (serverless) <br />
-      - Task Definitions for the Services defintions and specifications<br />
-    - CodeBuild: 
-      - To pull git repo from source <br />
-      - Builds the images(python and postgres) from docker-compose.yaml and <br />
-      - Push docker images to ECR <br />
-    - CodeDeploy: Deploys the images to ECS containers <br />
-    - CodePipeline: to automate the git code pull, Codebuild and Codedeploy <br />
+    1. ECS  - host our docker containershand <br />
+        Cluster - Running on Fargate (serverless) <br />
+        Task Definitions for the Services defintions and specifications<br />
+    2. CodeBuild: 
+        To pull git repo from source <br />
+        Builds the images(python and postgres) from docker-compose.yaml and <br />
+        Push docker images to ECR <br />
+    3. CodeDeploy: Deploys the images to ECS containers <br />
+    4. CodePipeline: to automate the git code pull, Codebuild and Codedeploy <br />
 
