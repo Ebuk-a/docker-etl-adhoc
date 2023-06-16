@@ -41,7 +41,7 @@ Host requirements (laptop, or VM), where you will be executing this program:
 
 ## Future work: Replication on AWS <br />
 Technologies <br />
-    1. ECS  - host our docker containershand <br />
+    1. ECS  - host our docker containers <br />
         Cluster - Running on Fargate (serverless) <br />
         Task Definitions for the Services defintions and specifications<br />
     2. CodeBuild: 
