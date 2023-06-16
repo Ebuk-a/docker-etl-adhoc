@@ -31,10 +31,10 @@ Host requirements (laptop, or VM), where you will be executing this program:
 4. Execute the python script on the app container: docker exec python-app python3 basic_etl.py  
 5. This should print out some prompts and populate the database.
 6. To confirm data has been writen, access the database using DB client(pgAdmin or any other) with the following connection details<br />
-    a. Host: localhost
-    b. Database: postgres
-    c. User: postgres
-    d. Password: postgres
-7. Check out both tables:
-    a. postgres.staging.users_raw
-    b. postgres.analytics.users
+        Host: localhost<br />
+        Database: postgres <br />
+        User: postgres <br />
+        Password: postgres
+7. Check out both tables: <br />
+        postgres.staging.users_raw <br />
+        postgres.analytics.users <br />
