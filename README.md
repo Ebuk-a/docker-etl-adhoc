@@ -38,3 +38,16 @@ Host requirements (laptop, or VM), where you will be executing this program:
 7. Check out both tables: <br />
         postgres.staging.users_raw <br />
         postgres.analytics.users <br />
+
+## Future work: Replication on AWS <br />
+Technologies <br />
+    1. ECS  - host our docker containershand <br />
+        Cluster - Running on Fargate (serverless) <br />
+        Task Definitions for the Services defintions and specifications<br />
+    2. CodeBuild: 
+        To pull git repo from source <br />
+        Builds the images(python and postgres) from docker-compose.yaml and <br />
+        Push docker images to ECR <br />
+    3. CodeDeploy: Deploys the images to ECS containers <br />
+    4. CodePipeline: to automate the git code pull, Codebuild and Codedeploy <br />
+
