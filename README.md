@@ -12,8 +12,8 @@ This is a basic illustration of how to run python on a docker container, and exe
 
 ## Requirements
 Host requirements (laptop, or VM), where you will be executing this program:
-1. Install Docker Engine and Docker compose 
-    To install docker:  https://docs.docker.com/engine/install/ 
+1. Install Docker Engine and Docker compose <br />
+    To install docker:  https://docs.docker.com/engine/install/ <br />
     To install docker compose plugin: https://docs.docker.com/compose/install/linux/
 
 2. Install git: https://github.com/git-guides/install-git
