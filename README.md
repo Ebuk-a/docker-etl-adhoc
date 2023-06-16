@@ -24,17 +24,17 @@ Host requirements (laptop, or VM), where you will be executing this program:
 3. Python 3.11-slim-buster
 
 ## Setup
-1. Clone the repo git clone https://Ebuk-a.com/docker-etl-adhoc
+1. Clone the repo git clone https://github.com/Ebuk-a/docker-etl-adhoc
 2. Cd into the directory: cd docker-etl-adhoc
     Have a quick scan of the files within.
 3. Run: docker compose up -d
 4. Execute the python script on the app container: docker exec python-app python3 basic_etl.py  
 5. This should print out some prompts and populate the database.
 6. To confirm data has been writen, access the database using DB client(pgAdmin or any other) with the following connection details<br />
-        Host: localhost<br />
-        Database: postgres <br />
-        User: postgres <br />
-        Password: postgres
-7. Check out both tables: <br />
-        postgres.staging.users_raw <br />
-        postgres.analytics.users <br />
+    a. Host: localhost
+    b. Database: postgres
+    c. User: postgres
+    d. Password: postgres
+7. Check out both tables:
+    a. postgres.staging.users_raw
+    b. postgres.analytics.users
