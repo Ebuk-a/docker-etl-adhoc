@@ -41,7 +41,7 @@ Host requirements (laptop, or VM), where you will be executing this program:
         postgres.staging.users_raw <br />
         postgres.analytics.users <br />
 
-## AWS <br />
+## Futureworks: Replication on AWS <br />
 Futureworks: Replication-on-AWS: Technologies <br />
     1. ECS  - host our docker containers <br />
         Cluster - Running on Fargate (serverless) <br />
