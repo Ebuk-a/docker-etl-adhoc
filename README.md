@@ -3,6 +3,7 @@
 * [Technologies](#technologies)
 * [Requirements](#requirements)
 * [Setup](#setup)
+* [Future work: Replication on AWS](#futureworks)
 
 # Introduction: Basic ETL process using Docker Compose
 This is a basic illustration of how to run python on a docker container, and execute scripts that extracts data from an api and loads to a containerised database- postgresDB. This is all bundled in a docker compose file.
