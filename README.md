@@ -3,7 +3,7 @@
 * [Technologies](#technologies)
 * [Requirements](#requirements)
 * [Setup](#setup)
-* [Future work: Replication on AWS](#futureworks)
+* [Futurework-AWS](#Futurework-AWS)
 
 # Introduction: Basic ETL process using Docker Compose
 This is a basic illustration of how to run python on a docker container, and execute scripts that extracts data from an api and loads to a containerised database- postgresDB. This is all bundled in a docker compose file.
@@ -41,8 +41,8 @@ Host requirements (laptop, or VM), where you will be executing this program:
         postgres.staging.users_raw <br />
         postgres.analytics.users <br />
 
-## Future work: Replication on AWS <br />
-Technologies <br />
+## Futurework-AWS <br />
+Replication-on-AWS: Technologies <br />
     1. ECS  - host our docker containers <br />
         Cluster - Running on Fargate (serverless) <br />
         Task Definitions for the Services defintions and specifications<br />
