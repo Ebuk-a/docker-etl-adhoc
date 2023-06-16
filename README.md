@@ -23,6 +23,7 @@ Host requirements (laptop, or VM), where you will be executing this program:
 2. Postgres:13 and associated SQL scripts
 3. Python 3.11-slim-buster
 
+
 ## Setup
 1. Clone the repo git clone https://github.com/Ebuk-a/docker-etl-adhoc
 2. Cd into the directory: cd docker-etl-adhoc
