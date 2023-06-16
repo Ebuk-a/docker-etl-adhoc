@@ -19,7 +19,7 @@ Host requirements (laptop, or VM), where you will be executing this program:
 2. Install git: https://github.com/git-guides/install-git
 
 ## Technologies
-1. Docker $ Docker compose
+1. Docker and Docker compose
 2. Postgres:13 and associated SQL scripts
 3. Python 3.11-slim-buster
 
@@ -28,13 +28,13 @@ Host requirements (laptop, or VM), where you will be executing this program:
 2. Cd into the directory: cd docker-etl-adhoc
     Have a quick scan of the files within.
 3. Run: docker compose up -d
-4. exec the python script on the app container: docker exec python-app python3 basic_etl.py  
+4. Execute the python script on the app container: docker exec python-app python3 basic_etl.py  
 5. This should print out some prompts and populate the database.
-6. To confirm data has been writen, access the database using DB client(pgAdmin or any other) with the following connection details
-    Host: localhost
-    Database: postgres
-    User: postgres
-    Password: postgres
-7. Check out both tables: 
-        postgres.staging.users_raw
-        postgres.analytics.users
+6. To confirm data has been writen, access the database using DB client(pgAdmin or any other) with the following connection details<br />
+        Host: localhost<br />
+        Database: postgres <br />
+        User: postgres <br />
+        Password: postgres
+7. Check out both tables: <br />
+        postgres.staging.users_raw <br />
+        postgres.analytics.users <br />
